@@ -20,6 +20,7 @@ a, a:hover, a:focus {
     margin-right: 20px;
 }
 
+
 .navbar {
     padding: 15px 10px;
     background: #000;
@@ -59,7 +60,7 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #1b2a49;
+    background: #16161D;
     color: #fff;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
@@ -71,14 +72,11 @@ a, a:hover, a:focus {
 }
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #1b2a49;
+    background: #16161D;
     border-bottom: 2px solid #47748b;
 
 }
 
-.plus{
-    margin-left: 120px;
-}
 #sidebar ul.components {
     padding: 20px 0;
     border-bottom: 2px solid #47748b;
@@ -93,12 +91,12 @@ a, a:hover, a:focus {
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1em;
+    font-size: 14PX;
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #000;
-    background: #fff;
+    color: #F9FBFD;
+    background: #000002;
         border-left: 4px solid red;
 
 }
@@ -120,13 +118,25 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #1b2a49;
+    background: #16161d;
 }
 
 
 
-
-
+/*--------------------button---------------*/
+.add{
+    background-color: #ff5f40;
+    margin-top: 30%;
+    margin-left: 30%;
+    color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 0;
+    position: fixed;
+}
+.add:hover{
+    background-color:#f08a5d;
+}
 
 /* ---------------------------------------------------
 ----------------------------------------------------- */
