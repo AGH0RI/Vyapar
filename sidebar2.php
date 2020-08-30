@@ -38,7 +38,7 @@ My Company &nbsp;></h6>
 
                 <li >
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><span class=" spli fa fa-file"></span>Sale</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <ul class="collapse list-unstyled" id="homeSubmenu" role="menu">
                         <li>
                             <a href="#">Sale Invoice &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+</a>
                         </li>
@@ -162,6 +162,7 @@ My Company &nbsp;></h6>
             });
 
         });
+
     </script>
 </body>
 
