@@ -100,6 +100,12 @@ a, a:hover, a:focus {
         border-left: 4px solid red;
 
 }
+.selected {
+    color: #F9FBFD;
+    background: #000002;
+        border-left: 4px solid red;
+
+}
 
 
 

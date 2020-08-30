@@ -83,7 +83,7 @@ My Company &nbsp;></h6>
                 <li>
 
                   <a style="    border-bottom: 2px solid #47748b;
-" href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><span class=" spli fa fa-university"></span>Cash & Bank</a>
+                    " href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><span class=" spli fa fa-university"></span>Cash & Bank</a>
                     <ul class="collapse list-unstyled" id="Submenu">
                         <li>
                             <a href="#">Bank Account&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;+</a>
@@ -154,7 +154,14 @@ My Company &nbsp;></h6>
             });
 
         });
+        $(document).ready(function () {
+            $('li').on('click', function () {
 
+                $('li').removeClass('selected');
+                $(this).addClass('selected');
+            });
+
+        });
     </script>
 </body>
 
