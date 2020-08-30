@@ -106,9 +106,6 @@ a, a:hover, a:focus {
         border-left: 4px solid red;
 
 }
-
-
-
 a[data-toggle="collapse"] {
     position: relative;
 }
