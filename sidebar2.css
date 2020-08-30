@@ -130,7 +130,7 @@ ul ul a {
 
 /*--------------------button---------------*/
 .add{
-    background-color: #ff5f40;
+    background-color: #fa0011;
     margin-top: 30%;
     margin-left: 30%;
     color: #fff;
@@ -140,7 +140,8 @@ ul ul a {
     position: fixed;
 }
 .add:hover{
-    background-color:#f08a5d;
+    background-color:#9b0800;
+    color: #fff;
 }
 
 /* ---------------------------------------------------

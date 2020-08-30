@@ -159,6 +159,7 @@ My Company &nbsp;></h6>
 
                 $('li').removeClass('selected');
                 $(this).addClass('selected');
+                console.log("running");
             });
 
         });
