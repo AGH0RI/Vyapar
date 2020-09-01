@@ -21,21 +21,19 @@ h5{
 	padding-left: 10px;
 }
 .icon{
+  position: absolute;
 	margin-top: 5px;
-	margin-left: 59rem;
+	margin-left: 90%;
 	font-size: 30px;
-}
-.iconsm{
-  margin-top: 5px;
-  margin-left: 43rem;
-  font-size: 30px;
 }
 .icon1{
-	padding-left: 10px;
-		margin-top: 5px;
+  position: absolute;
+	margin-top: 5px;
+  margin-left: 93%;
 	font-size: 30px;
-
-
+}
+.icon1:hover{
+  cursor: pointer;
 }
 .first ,.second{
 	padding: 10px;

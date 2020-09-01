@@ -2,19 +2,21 @@
 <html>
 <head>
 	<title>Table</title>
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="./css/table.css">
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="table.css">
 </head>
 <body>
 	<div class="header">
 <h3>Sale</h3>
 <h5 style="color: #005086;">Credit</h5>
-<label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1"></label>
+</div>
 
 <h5>Cash</h5>
 <i class="icon fa fa-calculator" aria-hidden="true"></i>
@@ -95,13 +97,6 @@
 </div>
 
 	
-<script type="text/javascript">
-	 $(document).ready(function () {
-            $(".fa-times-circle").on('click', function () {
-            	location.reload(true);
-            });
 
-        });
-</script>
 </body>
 </html>

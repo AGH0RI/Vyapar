@@ -137,6 +137,8 @@
         $(document).ready(function () {
             $('.add').on('click', function () {
                 $(this).addClass('hidden');
+                $('#sidebar').addClass('active');
+                $("#sidebarCollapse").addClass('hidden');
                 $("#content-area").load('pages/addsaleinvoice.php');
             });
 
